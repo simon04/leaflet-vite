@@ -1,4 +1,4 @@
-import * as L from "leaflet/dist/leaflet-src.esm.js";
+import * as L from "leaflet/src/Leaflet.js";
 import "leaflet/dist/leaflet.css";
 import iconUrl from "leaflet/dist/images/marker-icon.png";
 import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";

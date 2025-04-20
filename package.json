@@ -8,7 +8,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "leaflet": "^1.9.4"
+    "leaflet": "patch:leaflet@https%3A//github.com/leaflet/leaflet.git%23commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112#~/.yarn/patches/leaflet-https-546db146e4.patch"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.3",
