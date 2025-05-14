@@ -830,22 +830,15 @@ __metadata:
   resolution: "leaflet-vite@workspace:."
   dependencies:
     "@types/leaflet": "npm:^1.9.3"
-    leaflet: "patch:leaflet@https%3A//github.com/leaflet/leaflet.git%23commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112#~/.yarn/patches/leaflet-https-546db146e4.patch"
+    leaflet: "leaflet/leaflet#main"
     vite: "npm:^6.3.2"
   languageName: unknown
   linkType: soft
 
-"leaflet@https://github.com/leaflet/leaflet.git#commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112":
-  version: 1.9.2
-  resolution: "leaflet@https://github.com/leaflet/leaflet.git#commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112"
-  checksum: 10c0/15c8da7080530473dd366e993da228b7923b825b6cc8cad8cf556ec39d1ca3e55335c935b6a4f8ea80c127c635f62d7a08c538e012305aec5e0aa03e7b90551e
-  languageName: node
-  linkType: hard
-
-"leaflet@patch:leaflet@https%3A//github.com/leaflet/leaflet.git%23commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112#~/.yarn/patches/leaflet-https-546db146e4.patch":
-  version: 1.9.2
-  resolution: "leaflet@patch:leaflet@https%3A//github.com/leaflet/leaflet.git%23commit=c2946c429eb2ec6683a514cbb9bc97494e4a4112#~/.yarn/patches/leaflet-https-546db146e4.patch::version=1.9.2&hash=5b09b2"
-  checksum: 10c0/4dbc6e65118835b7b237f4d01784fedcf101fad663640d295bc0d0a26678ca0d3c5d076aea279c0d2a4d95a2ca8d9a2901d19f8e12f857d4197c02247beff711
+"leaflet@leaflet/leaflet#main":
+  version: 1.9.4
+  resolution: "leaflet@https://github.com/leaflet/leaflet.git#commit=f4eeb7feea2038058cf7d61b4e1ba2c47a2b3297"
+  checksum: 10c0/5f07ef18f030ca59625b13a3f382cebe75542f695858d8da6086165d337fef5d041db316159f525b99bc80e9cfe981ae6a25e114a365f8ad4681efce78f9e0ba
   languageName: node
   linkType: hard
 
