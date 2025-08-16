@@ -830,15 +830,15 @@ __metadata:
   resolution: "leaflet-vite@workspace:."
   dependencies:
     "@types/leaflet": "npm:^1.9.3"
-    leaflet: "leaflet/leaflet#main"
+    leaflet: "npm:^2.0.0-alpha.1"
     vite: "npm:^6.3.2"
   languageName: unknown
   linkType: soft
 
-"leaflet@leaflet/leaflet#main":
-  version: 1.9.4
-  resolution: "leaflet@https://github.com/leaflet/leaflet.git#commit=f4eeb7feea2038058cf7d61b4e1ba2c47a2b3297"
-  checksum: 10c0/5f07ef18f030ca59625b13a3f382cebe75542f695858d8da6086165d337fef5d041db316159f525b99bc80e9cfe981ae6a25e114a365f8ad4681efce78f9e0ba
+"leaflet@npm:^2.0.0-alpha.1":
+  version: 2.0.0-alpha.1
+  resolution: "leaflet@npm:2.0.0-alpha.1"
+  checksum: 10c0/df7a6640aa90c6509c9cfb534fbaf6c024e9fc73df350ccb3c3369e3d6d37f03b16b96f78e92c96d89b49bee725c1566b21566f18af3bebc9c48d758b7b1cce5
   languageName: node
   linkType: hard
 
